@@ -1,0 +1,6 @@
+{{ range $key, $container := . }}{{ with $address := index $container.Addresses 0 }}{{ if eq $address.Port "22" }}
+Host {{ index (split $container.Name "_") 0}}
+    HostName localhost
+    Port {{ $address.HostPort }}
+    User www
+{{end}}{{end}}{{end}}
