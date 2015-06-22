@@ -1,5 +1,7 @@
 Generates `.ssh/config` file with aliases to running ssh docker containers ([explained](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)).
 
+Works great with https://github.com/million12/docker-php-app-ssh
+
 See [docker-gen](https://github.com/jwilder/docker-gen) to understand the magic.
 
 ## Usage
