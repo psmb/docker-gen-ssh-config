@@ -1,4 +1,4 @@
-Generates `.ssh/config` file with aliases to running ssh docker containers.
+Generates `.ssh/config` file with aliases to running ssh docker containers ([explained](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)).
 
 See [docker-gen](https://github.com/jwilder/docker-gen) to understand the magic.
 
